@@ -40,11 +40,10 @@ body{
 /*Req 1*/
 
 h1{
-  font-size: 35px;
-  text-align: center;color: #b21f50;
+  font-size: 32px;
+  text-align: center;
+  color: #b21f50;
   line-height: 2;
-
-  /*Req 2*/
 }
 
 p{
@@ -84,7 +83,8 @@ td{
   padding: 10px;
   background: #7e0825;
   text-transform: uppercase;
-  text-align: center
+  vertical-align: center;
+  text-align: center;
 }
 
 .rowhead{
