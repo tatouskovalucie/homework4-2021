@@ -30,7 +30,7 @@ body{
   font-size: 16px;
   margin: 1.2em;
   background-image: url(../images/pigeon-background.JPEG);
-  background-image: #DDDDDD;
+  background-color: #DDDDDD;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -91,7 +91,7 @@ td{
   border: 2px solid #000000;
 }
 
-tr:nth-child(odd) {background-color: 0.0;}
+tr:nth-child(odd) {background-color: 0;}
 tr:nth-child(even) {background-color: #D1D1D1;}
 
 tr:hover {
@@ -103,12 +103,8 @@ table{
   border-radius: 50px;
 }
 
-table.center {
-  margin-left:auto;
-  margin-right:auto;
-}
 
-/* I gave you the selector, but not the property-value pair. 
+/* I gave you the selector, but not the property-value pair.
 You can use Inspect Element or your editor to find selectors. */
 
 thead tr:first-child th:first-child{
@@ -128,7 +124,6 @@ tbody tr:last-child td:last-child {
 }
 
 /*Add selectors and rules here*/
-
 
 
 footer{
